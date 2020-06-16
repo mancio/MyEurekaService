@@ -11,7 +11,7 @@ To see all the containers installed locally type
 To build the container go in the Dockerfile directory and type 
 ```docker build -t ImageName:TagName dockerfile_dir```
 
-to execute a container in local type ```docker run -p 8080:8080 ImageName:TagName```
+to execute a container in local type ```docker run -p 8761:8761 ImageName:TagName```
 
 ###Info
 Tutorial how to build [here](https://developer.okta.com/blog/2017/06/15/build-microservices-architecture-spring-boot) 
