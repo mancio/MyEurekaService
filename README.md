@@ -15,8 +15,10 @@ To see all the containers installed locally type
 
 To build the container go in the Dockerfile directory and type 
 ```docker build -t ImageName:TagName dockerfile_dir```
+example ```docker build -t eureka:0.1 .```
 
 to execute a container in local type ```docker run -p 8761:8761 ImageName:TagName```
+example ```docker run -p 8761:8761 eureka:0.1```
 
 ###Info
 Tutorial how to build [here](https://developer.okta.com/blog/2017/06/15/build-microservices-architecture-spring-boot) 
